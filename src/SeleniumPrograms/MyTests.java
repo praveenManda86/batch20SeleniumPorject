@@ -8,6 +8,7 @@ public class MyTests {
 	@Test (retryAnalyzer = RetryFailedCases.class)
 	public void Tc1() {
 		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 
 	@Test
