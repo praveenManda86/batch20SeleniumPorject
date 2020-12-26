@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="PraveenTestNGClasses"  parallel="methods" thread-count="3">
+	<test name="testNGExamplePrograms">
+		<classes>
+			<class name="SeleniumPrograms.paralleltestEx" />
+		</classes>
+	</test>
+</suite>
