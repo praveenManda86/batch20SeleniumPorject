@@ -13,7 +13,7 @@ public class LoginFunctionality {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriv\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 
 		String ptitle = driver.getTitle();
